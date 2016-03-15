@@ -31,7 +31,7 @@
             <instances>
                 <instance type="txtWelcomeText" uid="19">
                     <properties>
-                        <text>Die or Rage! NIGHTMARE MODE</text>
+                        <text>  Die or Rage!  HELL   MODE</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-64,400,0</font>
                         <color>0,0,0</color>
@@ -71,7 +71,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>246</x>
-                        <y>346</y>
+                        <y>356</y>
                         <z>0</z>
                         <width>362</width>
                         <height>24</height>

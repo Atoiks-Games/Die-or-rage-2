@@ -480,11 +480,7 @@
             </actions>
         </event-block>
         <event-block sid="3373559553110515">
-            <conditions>
-                <condition id="1" name="Is overlapping another object" sid="1211588648069943" type="sprRyan">
-                    <param id="0" name="Object">sprSlimeBlock</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action behavior="Platform" id="3" name="Set deceleration" sid="4162982069970255" type="sprRyan">
                     <param id="0" name="Deceleration">100000</param>
@@ -621,13 +617,8 @@
             </actions>
         </event-block>
         <event-block sid="2291881425724125">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="4582098812272012" type="sprBullet">
-                    <param id="0" name="Object">sprSlimeBlock</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
-                <action id="-9" name="Destroy" sid="9484828908431841" type="sprSlimeBlock" />
                 <action id="-9" name="Destroy" sid="701769166738955" type="sprBullet" />
             </actions>
         </event-block>
@@ -676,14 +667,9 @@
             </sub-events>
         </event-block>
         <event-block sid="5620344579628237">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="1984532471399554" type="sprBloop">
-                    <param id="0" name="Object">sprSlimeBlock</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-9" name="Destroy" sid="5332309376163376" type="sprBloop" />
-                <action id="-9" name="Destroy" sid="2514091325028089" type="sprSlimeBlock" />
             </actions>
         </event-block>
         <event-block sid="7826272164692499">
@@ -729,11 +715,7 @@
             </actions>
         </event-block>
         <event-block sid="1754612994278282">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="3466114191576317" type="sprHealthDart">
-                    <param id="0" name="Object">sprSlimeBlock</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-9" name="Destroy" sid="7196636154883988" type="sprHealthDart" />
             </actions>

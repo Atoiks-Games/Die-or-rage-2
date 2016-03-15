@@ -21,7 +21,6 @@
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Car" version="1">Car</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
-        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
@@ -642,29 +641,6 @@
                             <point x="0.994531" y="0.03125" />
                             <point x="0.994531" y="0.953125" />
                             <point x="0.00859375" y="0.953125" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprSlimeBlock" sid="9808075719011653">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="3218474715609454">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Physics" sid="9630496225153056">
-                    <behavior id="Physics" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8471732587034827" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.503356" original-source="C:\Users\ajbim\Downloads\SlimeBlock.png">
-                        <collision-poly>
-                            <point x="0.00684932" y="0.00671141" />
-                            <point x="0.993151" y="0.00671141" />
-                            <point x="0.993151" y="0.993289" />
-                            <point x="0.00684932" y="0.993289" />
                         </collision-poly>
                     </frame>
                 </animation>
