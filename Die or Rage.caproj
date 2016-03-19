@@ -1063,6 +1063,29 @@
         <object-type name="btnSkip" sid="2549293193634901">
             <plugin id="Button" />
         </object-type>
+        <object-type name="sprFakePlatform" sid="7210373050022898">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2753784733008006">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="4186746821487543" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.571429" original-source="C:\Users\gui\Desktop\gui.png">
+                        <collision-poly>
+                            <point x="0.00310559" y="0.142857" />
+                            <point x="0.996894" y="0.142857" />
+                            <point x="0.996894" y="0.857143" />
+                            <point x="0.00310559" y="0.857143" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="5731452317588288" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

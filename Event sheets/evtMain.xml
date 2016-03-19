@@ -7,11 +7,11 @@
         <variable comment="Name of current animation" constant="0" name="sprRyanAnimation" sid="5487619636812518" static="0" type="text">Idle</variable>
         <event-block any="1" sid="8311668621491138">
             <conditions>
-                <condition id="2" name="Key is down" sid="8516428415850108" type="Keyboard">
-                    <param id="0" name="Key">39 (Right arrow)</param>
+                <condition id="2" name="Key is down" sid="3484795856172894" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
                 </condition>
                 <condition id="2" name="Key is down" sid="6082579123148742" type="Keyboard">
-                    <param id="0" name="Key">68 (D)</param>
+                    <param id="0" name="Key">65 (A)</param>
                 </condition>
             </conditions>
             <actions>
@@ -36,13 +36,10 @@
         <event-block any="1" sid="4535825805768926">
             <conditions>
                 <condition id="2" name="Key is down" sid="6244345915744973" type="Keyboard">
-                    <param id="0" name="Key">38 (Up arrow)</param>
-                </condition>
-                <condition id="2" name="Key is down" sid="9979157824626071" type="Keyboard">
-                    <param id="0" name="Key">32 (Space)</param>
+                    <param id="0" name="Key">40 (Down arrow)</param>
                 </condition>
                 <condition id="2" name="Key is down" sid="5164041220326641" type="Keyboard">
-                    <param id="0" name="Key">87 (W)</param>
+                    <param id="0" name="Key">83 (S)</param>
                 </condition>
             </conditions>
             <actions>
@@ -63,10 +60,10 @@
         <event-block any="1" sid="3888359403863773">
             <conditions>
                 <condition id="2" name="Key is down" sid="4804828432275024" type="Keyboard">
-                    <param id="0" name="Key">37 (Left arrow)</param>
+                    <param id="0" name="Key">39 (Right arrow)</param>
                 </condition>
                 <condition id="2" name="Key is down" sid="5489928815115065" type="Keyboard">
-                    <param id="0" name="Key">65 (A)</param>
+                    <param id="0" name="Key">68 (D)</param>
                 </condition>
             </conditions>
             <actions>
@@ -185,13 +182,13 @@
         <event-block any="1" sid="1680738395685589">
             <conditions>
                 <condition id="2" name="Key is down" sid="5419715971863039" type="Keyboard">
-                    <param id="0" name="Key">17 (Ctrl)</param>
+                    <param id="0" name="Key">32 (Space)</param>
                 </condition>
                 <condition id="2" name="Key is down" sid="3420873825589966" type="Keyboard">
-                    <param id="0" name="Key">40 (Down arrow)</param>
+                    <param id="0" name="Key">38 (Up arrow)</param>
                 </condition>
                 <condition id="2" name="Key is down" sid="5962801437809876" type="Keyboard">
-                    <param id="0" name="Key">83 (S)</param>
+                    <param id="0" name="Key">87 (W)</param>
                 </condition>
             </conditions>
             <actions>
@@ -259,6 +256,10 @@
                 <action id="-15" name="Set visible" sid="5574970862470104" type="sprGreenPlatform">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="4" name="Set animation" sid="6651028879111348" type="sprFakePlatform">
+                    <param id="0" name="Animation">&quot;On&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="2155436040430613">
@@ -277,6 +278,10 @@
                 </action>
                 <action behavior="Solid" id="0" name="Set enabled" sid="1123618251719072" type="sprGreenPlatform">
                     <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="9583233997838056" type="sprFakePlatform">
+                    <param id="0" name="Animation">&quot;Off&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -476,38 +481,6 @@
                     <param id="0" name="Acceleration">1600</param>
                     <param id="1" name="X">600</param>
                     <param id="2" name="Y">380</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3373559553110515">
-            <conditions />
-            <actions>
-                <action behavior="Platform" id="3" name="Set deceleration" sid="4162982069970255" type="sprRyan">
-                    <param id="0" name="Deceleration">100000</param>
-                </action>
-                <action behavior="Platform" id="2" name="Set acceleration" sid="8171328321741913" type="sprRyan">
-                    <param id="0" name="Acceleration">1</param>
-                </action>
-                <action behavior="Platform" id="4" name="Set jump strength" sid="5488026760978554" type="sprRyan">
-                    <param id="0" name="Jump strength">1200</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="608358387074122">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="7940731205636205" type="System">
-                    <param id="0" name="Interval (seconds)">2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="2" name="Set acceleration" sid="5563119051977813" type="sprRyan">
-                    <param id="0" name="Acceleration">1500</param>
-                </action>
-                <action behavior="Platform" id="3" name="Set deceleration" sid="4371983223792257" type="sprRyan">
-                    <param id="0" name="Deceleration">1500</param>
-                </action>
-                <action behavior="Platform" id="4" name="Set jump strength" sid="8604213211352632" type="sprRyan">
-                    <param id="0" name="Jump strength">600</param>
                 </action>
             </actions>
         </event-block>
