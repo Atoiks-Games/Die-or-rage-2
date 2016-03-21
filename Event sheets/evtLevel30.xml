@@ -20,13 +20,13 @@
         <comment>inGameSound2 because its the sketchy one (not the anoying one)</comment>
         <event-block sid="3557546306359568">
             <conditions>
-                <condition id="5" name="Is tag playing" sid="4234343418546362" type="inGameMusic">
+                <condition disabled="1" id="5" name="Is tag playing" sid="4234343418546362" type="inGameMusic">
                     <param id="0" name="Tag">&quot;inGameSound2&quot;</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="33" name="Stop all" sid="264624823029703" type="inGameMusic" />
-                <action id="0" name="Play" sid="5637485739809473" type="inGameMusic">
+                <action disabled="1" id="0" name="Play" sid="5637485739809473" type="inGameMusic">
                     <param id="0" name="Audio file">boss1Music</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">100</param>

@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>evtMain</name>
     <events>
+        <variable constant="0" name="Retries" sid="6444696925077164" static="0" type="number">1</variable>
         <variable comment="Signal" constant="1" name="SIG_TELEPORT_RYAN" sid="3750120932456258" static="0" type="text">teleportRyan</variable>
         <variable comment="Name of current animation" constant="0" name="sprRyanAnimation" sid="5487619636812518" static="0" type="text">Idle</variable>
         <event-block any="1" sid="8311668621491138">
@@ -158,18 +159,18 @@
         </event-block>
         <event-block sid="9928122558057698">
             <conditions>
-                <condition id="4" inverted="1" name="Is any playing" sid="5989996918526686" type="inGameMusic" />
+                <condition disabled="1" id="4" inverted="1" name="Is any playing" sid="5989996918526686" type="inGameMusic" />
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="7696822890500112">
                     <conditions>
-                        <condition id="5" inverted="1" name="Is tag playing" sid="2318128565700189" type="inGameMusic">
+                        <condition disabled="1" id="5" inverted="1" name="Is tag playing" sid="2318128565700189" type="inGameMusic">
                             <param id="0" name="Tag">&quot;inGameSound2&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="4061851845493491" type="inGameMusic">
+                        <action disabled="1" id="0" name="Play" sid="4061851845493491" type="inGameMusic">
                             <param id="0" name="Audio file">inGameSound</param>
                             <param id="2" name="Loop">1</param>
                             <param id="3" name="Volume">50</param>
@@ -298,6 +299,10 @@
                 <action id="-22" name="Set layout angle" sid="2281962421004175" type="System">
                     <param id="0" name="Angle">0</param>
                 </action>
+                <action id="-10" name="Add to" sid="4497515100076132" type="System">
+                    <param id="0" name="Variable">Retries</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="201369634737527">
@@ -308,6 +313,9 @@
                 <action id="4" name="Set animation" sid="4630588520396687" type="sprRyan">
                     <param id="0" name="Animation">sprRyanAnimation</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Set text" sid="8473757910558676" type="txtRetryCounter">
+                    <param id="0" name="Text">&quot;Tries: &quot; &amp; Retries</param>
                 </action>
             </actions>
             <sub-events>
@@ -508,6 +516,10 @@
                         <action id="-22" name="Set layout angle" sid="5666947754484653" type="System">
                             <param id="0" name="Angle">0</param>
                         </action>
+                        <action id="-10" name="Add to" sid="8293574298789817" type="System">
+                            <param id="0" name="Variable">Retries</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -527,6 +539,10 @@
                 <action id="-22" name="Set layout angle" sid="2728558351267054" type="System">
                     <param id="0" name="Angle">0</param>
                 </action>
+                <action id="-10" name="Add to" sid="2087569579804509" type="System">
+                    <param id="0" name="Variable">Retries</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="950513140286372">
@@ -543,6 +559,10 @@
                 </action>
                 <action id="-22" name="Set layout angle" sid="3564658145247156" type="System">
                     <param id="0" name="Angle">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="7582479215080142" type="System">
+                    <param id="0" name="Variable">Retries</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -589,12 +609,6 @@
                 <action id="-9" name="Destroy" sid="5511320202081546" type="sprBullet" />
             </actions>
         </event-block>
-        <event-block sid="2291881425724125">
-            <conditions />
-            <actions>
-                <action id="-9" name="Destroy" sid="701769166738955" type="sprBullet" />
-            </actions>
-        </event-block>
         <event-block sid="1963173081789561">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="7957272821060155" type="sprHealBot">
@@ -603,6 +617,10 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="980207395687113" type="System" />
+                <action id="-10" name="Add to" sid="8907759213607846" type="System">
+                    <param id="0" name="Variable">Retries</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="3843316939895357">
@@ -639,12 +657,6 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="5620344579628237">
-            <conditions />
-            <actions>
-                <action id="-9" name="Destroy" sid="5332309376163376" type="sprBloop" />
-            </actions>
-        </event-block>
         <event-block sid="7826272164692499">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="5545648028501454" type="sprBloop">
@@ -664,6 +676,10 @@
             <actions>
                 <action id="-9" name="Destroy" sid="3413498477917605" type="sprHealthDart" />
                 <action id="-26" name="Restart layout" sid="6000204666342799" type="System" />
+                <action id="-10" name="Add to" sid="3401680330042251" type="System">
+                    <param id="0" name="Variable">Retries</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="9908686589198925">
@@ -685,12 +701,6 @@
                 <action behavior="Bullet" id="5" name="Set enabled" sid="8282821351149587" type="sprHealthDart">
                     <param id="0" name="State">1</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="1754612994278282">
-            <conditions />
-            <actions>
-                <action id="-9" name="Destroy" sid="7196636154883988" type="sprHealthDart" />
             </actions>
         </event-block>
         <event-block sid="2045552542647982">
@@ -824,6 +834,10 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="8015177359891953" type="System" />
+                <action id="-10" name="Add to" sid="7231101436418737" type="System">
+                    <param id="0" name="Variable">Retries</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="8579641446026429">

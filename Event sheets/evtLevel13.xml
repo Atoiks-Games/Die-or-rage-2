@@ -45,6 +45,10 @@
                             <param id="0" name="Variable">sprRyanAnimation</param>
                             <param id="1" name="Value">&quot;Idle&quot;</param>
                         </action>
+                        <action id="-10" name="Add to" sid="9026010278794208" type="System">
+                            <param id="0" name="Variable">Retries</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

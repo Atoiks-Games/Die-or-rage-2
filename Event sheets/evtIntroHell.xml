@@ -12,5 +12,15 @@
                 <action id="33" name="Stop all" sid="5985886328797097" type="inGameMusic" />
             </actions>
         </event-block>
+        <event-block sid="2966891674902233">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9203368125594176" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="3161905463985398" type="txtRetryCounter">
+                    <param id="0" name="Text">&quot;Total number of tries: &quot; &amp; Retries</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
