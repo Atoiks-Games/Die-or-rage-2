@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>Die or Rage 2</name>
+    <name>Die or Rage</name>
     <description>Another game</description>
     <version>1.0.0.0</version>
     <author>stansteadPeople</author>
@@ -1083,6 +1083,19 @@
                 </animation>
                 <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="5731452317588288" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprInvPlat" sid="1634881945971647">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9097905129362355">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3976901339321828" speed="5">
+                    <frame duration="1" hotspotX="0.498008" hotspotY="1.125" />
                 </animation>
             </animation-folder>
         </object-type>
