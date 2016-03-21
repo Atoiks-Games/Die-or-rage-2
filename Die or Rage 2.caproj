@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>Die or Rage</name>
+    <name>Die or Rage 2</name>
     <description>Another game</description>
     <version>1.0.0.0</version>
     <author>stansteadPeople</author>
@@ -1098,6 +1098,9 @@
                     <frame duration="1" hotspotX="0.498008" hotspotY="1.125" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="txtRetryCounter" sid="5824948524788335">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
