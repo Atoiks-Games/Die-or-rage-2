@@ -72,21 +72,18 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.384" hotspotY="0.127586" original-source="C:\Users\gui\Downloads\base_jeff.png">
                         <collision-poly>
-                            <point x="0.184" y="0.0793103" />
-                            <point x="0.496" y="0.0206897" />
-                            <point x="0.616" y="0.165517" />
-                            <point x="0.792" y="0.5" />
-                            <point x="0.984" y="0.993103" />
-                            <point x="0.496" y="0.831034" />
-                            <point x="0.048" y="0.97931" />
-                            <point x="0.104" y="0.5" />
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 1.png">
@@ -95,7 +92,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -106,7 +102,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -117,19 +112,18 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.387597" hotspotY="0.125" original-source="C:\Users\gui\Downloads\Jeff Idle 5.png">
                         <collision-poly>
-                            <point x="0.186047" y="0.0833333" />
-                            <point x="0.496124" y="0.0104167" />
-                            <point x="0.666667" y="0.149306" />
-                            <point x="0.992248" y="0.996528" />
-                            <point x="0.496124" y="0.861111" />
-                            <point x="0.00775194" y="0.996528" />
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\Jeff Idle 6.png">
@@ -138,7 +132,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -149,7 +142,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -160,7 +152,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -171,7 +162,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -182,7 +172,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -193,7 +182,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -204,7 +192,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -215,7 +202,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -226,7 +212,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -237,7 +222,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -248,7 +232,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -259,7 +242,6 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
@@ -272,44 +254,38 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.388489" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\run R Jeff 1.png">
                         <collision-poly>
-                            <point x="0.165468" y="0.0787671" />
-                            <point x="0.496403" y="0.0171233" />
-                            <point x="0.510791" y="0.232877" />
-                            <point x="0.741007" y="0.5" />
-                            <point x="0.892086" y="0.94863" />
-                            <point x="0.496403" y="0.839041" />
-                            <point x="0.0143885" y="0.993151" />
-                            <point x="0.0791367" y="0.5" />
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.386139" hotspotY="0.126712" original-source="C:\Users\gui\Downloads\run R Jeff 2.png">
                         <collision-poly>
-                            <point x="0.168317" y="0.0582192" />
-                            <point x="0.49505" y="0.00684932" />
-                            <point x="0.752475" y="0.0856164" />
-                            <point x="0.930693" y="0.5" />
-                            <point x="0.950495" y="0.982877" />
-                            <point x="0.49505" y="0.996575" />
-                            <point x="0.19802" y="0.931507" />
-                            <point x="0.019802" y="0.5" />
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.388889" hotspotY="0.12585" original-source="C:\Users\gui\Downloads\run R Jeff 3.png">
                         <collision-poly>
-                            <point x="0.18254" y="0.0782313" />
-                            <point x="0.5" y="0.0102041" />
-                            <point x="0.674603" y="0.139456" />
-                            <point x="0.81746" y="0.5" />
-                            <point x="0.97619" y="0.989796" />
-                            <point x="0.031746" y="0.986395" />
-                            <point x="0.0873016" y="0.5" />
+                            <point x="0.186047" y="0.0821918" />
+                            <point x="0.496124" y="0.010274" />
+                            <point x="0.666667" y="0.14726" />
+                            <point x="0.984496" y="0.993151" />
+                            <point x="0.0155039" y="0.993151" />
+                            <point x="0.0930233" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -321,21 +297,19 @@
                             <point x="0.672566" y="0.12628" />
                             <point x="0.823009" y="0.498294" />
                             <point x="0.929204" y="0.972696" />
-                            <point x="0.495575" y="0.836177" />
                             <point x="0.0884956" y="0.96587" />
                             <point x="0.00884956" y="0.498294" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.382979" hotspotY="0.127586" original-source="C:\Users\gui\Downloads\Jump Jeff 2.png">
                         <collision-poly>
-                            <point x="0.170213" y="0.0551724" />
-                            <point x="0.5" y="0.00344828" />
-                            <point x="0.776596" y="0.0724138" />
-                            <point x="0.989362" y="0.5" />
-                            <point x="0.904255" y="0.968966" />
-                            <point x="0.5" y="0.865517" />
-                            <point x="0.117021" y="0.962069" />
-                            <point x="0.0106383" y="0.5" />
+                            <point x="0.141593" y="0.0546075" />
+                            <point x="0.495575" y="0.0136519" />
+                            <point x="0.672566" y="0.12628" />
+                            <point x="0.823009" y="0.498294" />
+                            <point x="0.929204" y="0.972696" />
+                            <point x="0.0884956" y="0.96587" />
+                            <point x="0.00884956" y="0.498294" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -345,7 +319,6 @@
                             <point x="0.496124" y="0.476027" />
                             <point x="0.589147" y="0.5" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0232558" y="0.989726" />
                             <point x="0.24031" y="0.5" />
                         </collision-poly>
@@ -358,20 +331,18 @@
                             <point x="0.496124" y="0.010274" />
                             <point x="0.666667" y="0.14726" />
                             <point x="0.984496" y="0.993151" />
-                            <point x="0.496124" y="0.849315" />
                             <point x="0.0155039" y="0.993151" />
                             <point x="0.0930233" y="0.5" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.385827" hotspotY="0.127148" original-source="C:\Users\gui\Downloads\run L Jeff 1.png">
                         <collision-poly>
-                            <point x="0.535433" y="0.233677" />
+                            <point x="0.283465" y="0.295533" />
                             <point x="0.496063" y="0.0343643" />
                             <point x="0.88189" y="0.0515464" />
                             <point x="0.992126" y="0.498282" />
                             <point x="0.992126" y="0.996564" />
-                            <point x="0.496063" y="0.831615" />
-                            <point x="0.110236" y="0.95189" />
+                            <point x="0" y="1" />
                             <point x="0.283465" y="0.498282" />
                         </collision-poly>
                     </frame>
