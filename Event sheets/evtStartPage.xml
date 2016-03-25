@@ -13,5 +13,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="3016994851651111">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3223269044396268" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="1480303789388678" type="txtWelcomeText">
+                    <param id="0" name="Text">&quot;Die or Rage!&quot; &amp; newline &amp; &quot;HELL&quot; &amp; newline &amp; &quot;MODE&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -31,7 +31,7 @@
             <instances>
                 <instance type="txtWelcomeText" uid="19">
                     <properties>
-                        <text>  Die or Rage!  HELL   MODE</text>
+                        <text>on load, this txt is replaced</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-64,400,0</font>
                         <color>0,0,0</color>
