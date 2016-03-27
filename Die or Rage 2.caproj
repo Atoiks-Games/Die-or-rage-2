@@ -29,6 +29,7 @@
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -62,6 +63,9 @@
             <behaviors>
                 <behavior-type name="Platform" sid="9395584529892024">
                     <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="7614078435158216">
+                    <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -422,7 +426,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8087997873608529" speed="5">
-                    <frame duration="1" hotspotX="1.21271" hotspotY="0.979508" original-source="C:\Users\gui\Downloads\Dirt with house.png">
+                    <frame duration="1" hotspotX="1.21271" hotspotY="0.979508" original-source="C:\Users\gui\Downloads\Underworld House.png">
                         <collision-poly>
                             <point x="0" y="0.282787" />
                             <point x="0.858215" y="0.278322" />
