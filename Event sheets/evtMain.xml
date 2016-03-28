@@ -317,6 +317,9 @@
                 <action id="0" name="Set text" sid="8473757910558676" type="txtRetryCounter">
                     <param id="0" name="Text">&quot;Tries: &quot; &amp; Retries</param>
                 </action>
+                <action id="11" name="Set collisions enabled" sid="551344482567624" type="sprRyan">
+                    <param id="0" name="Collisions">1</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block sid="7267911097256087">
