@@ -259,7 +259,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="sprFakePlatform" uid="78">
+                <instance type="sprFakeGreen" uid="78">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -288,7 +288,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprInvPlat" uid="12">
+                <instance type="sprInvPlatGreen" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -317,7 +317,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprInvPlat" uid="76">
+                <instance type="sprInvPlatGreen" uid="76">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -346,7 +346,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprInvPlat" uid="79">
+                <instance type="sprInvPlatGreen" uid="79">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

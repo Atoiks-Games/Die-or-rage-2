@@ -129,7 +129,12 @@
                     <param id="0" name="Object">sprSwitch</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-23" name="Move at angle" sid="854745352403249" type="sprRyan">
+                    <param id="0" name="Angle">270</param>
+                    <param id="1" name="Distance">1</param>
+                </action>
+            </actions>
             <sub-events>
                 <event-block sid="5452107640294146">
                     <conditions>
@@ -257,9 +262,18 @@
                 <action id="-15" name="Set visible" sid="5574970862470104" type="sprGreenPlatform">
                     <param id="0" name="Visibility">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="6651028879111348" type="sprFakePlatform">
+                <action id="4" name="Set animation" sid="6651028879111348" type="sprFakeGreen">
                     <param id="0" name="Animation">&quot;On&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="4008234967148747" type="sprInvPlatGreen">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3984980912235738" type="sprFakeOrange">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="7878161803046183" type="sprInvPlatOrange">
+                    <param id="0" name="State">0</param>
                 </action>
             </actions>
         </event-block>
@@ -280,9 +294,18 @@
                 <action behavior="Solid" id="0" name="Set enabled" sid="1123618251719072" type="sprGreenPlatform">
                     <param id="0" name="State">0</param>
                 </action>
-                <action id="4" name="Set animation" sid="9583233997838056" type="sprFakePlatform">
+                <action id="4" name="Set animation" sid="9583233997838056" type="sprFakeGreen">
                     <param id="0" name="Animation">&quot;Off&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="1706773192441438" type="sprInvPlatGreen">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7392076190791155" type="sprFakeOrange">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Solid" id="0" name="Set enabled" sid="2867140195904376" type="sprInvPlatOrange">
+                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>

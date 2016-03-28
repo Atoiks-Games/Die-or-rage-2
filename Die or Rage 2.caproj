@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Die or Rage 2</name>
-    <description>Another game</description>
+    <description>A little bit harder</description>
     <version>1.0.0.0</version>
     <author>stansteadPeople</author>
     <author-email></author-email>
@@ -452,10 +452,10 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2207055883622881" speed="5">
                     <frame duration="1" hotspotX="0.478261" hotspotY="0.285714" original-source="C:\Users\gui\Downloads\Orange Platform Active.png">
                         <collision-poly>
-                            <point x="0.00349379" y="0.125" />
-                            <point x="0.997283" y="0.160714" />
-                            <point x="0.996894" y="0.839286" />
-                            <point x="0.00349379" y="0.875" />
+                            <point x="0" y="0.125" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1038,7 +1038,7 @@
         <object-type name="btnSkip" sid="2549293193634901">
             <plugin id="Button" />
         </object-type>
-        <object-type name="sprFakePlatform" sid="7210373050022898">
+        <object-type name="sprFakeGreen" sid="7210373050022898">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="2753784733008006">
@@ -1047,21 +1047,14 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="4186746821487543" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.571429" original-source="C:\Users\gui\Desktop\gui.png">
-                        <collision-poly>
-                            <point x="0.00310559" y="0.142857" />
-                            <point x="0.996894" y="0.142857" />
-                            <point x="0.996894" y="0.857143" />
-                            <point x="0.00310559" y="0.857143" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.571429" original-source="C:\Users\gui\Desktop\gui.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="5731452317588288" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="sprInvPlat" sid="1634881945971647">
+        <object-type name="sprInvPlatGreen" sid="1634881945971647">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="9097905129362355">
@@ -1076,6 +1069,27 @@
         </object-type>
         <object-type name="txtRetryCounter" sid="5824948524788335">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="sprFakeOrange" sid="8525904065658551">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="25505689840457" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.571429" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sprInvPlatOrange" sid="9284496766982253">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="8122570150545224">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="8229888544873591" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.571429" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

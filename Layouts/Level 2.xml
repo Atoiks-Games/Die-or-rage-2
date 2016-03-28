@@ -249,7 +249,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprInvPlat" uid="494">
+                <instance type="sprInvPlatGreen" uid="494">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -278,7 +278,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprInvPlat" uid="495">
+                <instance type="sprInvPlatGreen" uid="495">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -307,7 +307,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprInvPlat" uid="507">
+                <instance type="sprInvPlatGreen" uid="507">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
