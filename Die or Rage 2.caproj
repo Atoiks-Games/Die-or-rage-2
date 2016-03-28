@@ -3,10 +3,10 @@
     <name>Die or Rage 2</name>
     <description>A little bit harder</description>
     <version>1.0.0.0</version>
-    <author>stansteadPeople</author>
+    <author>Atoiks Games</author>
     <author-email></author-email>
-    <author-website>http://</author-website>
-    <app-id>com.stansteadPeople.dieOrRage</app-id>
+    <author-website>http://atoiks-games.github.io/</author-website>
+    <app-id>com.atoiksGames.dieOrRage2</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>22100</saved-with-version>
     <used-plugins>
@@ -1090,6 +1090,9 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.571429" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="txtSite" sid="580751805355951">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
