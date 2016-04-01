@@ -1108,6 +1108,9 @@
         <object-type name="txtMaybeNot" sid="1004039458782775">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Text33" sid="2257529044033357">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

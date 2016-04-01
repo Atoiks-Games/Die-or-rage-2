@@ -496,7 +496,7 @@
                 </instance>
                 <instance type="txtMaybeNot" uid="537">
                     <properties>
-                        <text>Wait, i meant the other way</text>
+                        <text>Wait, i meant the other way, try the next hole</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -513,7 +513,7 @@
                         <y>870</y>
                         <z>0</z>
                         <width>200</width>
-                        <height>30</height>
+                        <height>48</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -654,10 +654,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1343.826171875</x>
+                        <x>1313.565307617</x>
                         <y>398</y>
                         <z>0</z>
-                        <width>460</width>
+                        <width>518</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
@@ -712,10 +712,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1365.781982422</x>
-                        <y>650</y>
+                        <x>1338.999389648</x>
+                        <y>649.964538574</y>
                         <z>0</z>
-                        <width>465</width>
+                        <width>521</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
@@ -770,7 +770,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1126</x>
+                        <x>1070</x>
                         <y>596</y>
                         <z>0</z>
                         <width>394</width>
@@ -792,8 +792,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1126</x>
-                        <y>406.790344238</y>
+                        <x>1068</x>
+                        <y>407</y>
                         <z>0</z>
                         <width>485</width>
                         <height>7</height>
@@ -801,6 +801,62 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.571428597</hotspotY>
                         <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprOrangePlatform" uid="547">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>816.999938965</x>
+                        <y>906</y>
+                        <z>0</z>
+                        <width>153</width>
+                        <height>7</height>
+                        <depth>0</depth>
+                        <hotspotX>0.478260875</hotspotX>
+                        <hotspotY>0.285714298</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text33" uid="548">
+                    <properties>
+                        <text>You should stop listening to me</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>883</x>
+                        <y>863</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>42</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
