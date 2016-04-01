@@ -1094,6 +1094,20 @@
         <object-type name="txtSite" sid="580751805355951">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Text32" sid="5790407335060182">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sprArrow" sid="5694913435001619">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2278718371865159" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtMaybeNot" sid="1004039458782775">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
