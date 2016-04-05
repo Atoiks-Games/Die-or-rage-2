@@ -935,5 +935,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1295555205086547">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9326827910654471" type="sprAnvil">
+                    <param id="0" name="Object">sprFakeOrange</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="9683295407422221" type="txtWaitforit">
+                    <param id="0" name="Text">&quot;Wait for it...&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -1143,6 +1143,9 @@
         <object-type name="txtSW" sid="8023000915539102">
             <plugin id="Text" />
         </object-type>
+        <object-type name="txtWaitforit" sid="7667254531706771">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
