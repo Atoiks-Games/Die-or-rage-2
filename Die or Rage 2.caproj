@@ -1074,7 +1074,14 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="25505689840457" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.571429" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.571429" original-source="C:\Users\gui\Desktop\&apos;\Programing\GAME\plat.png">
+                        <collision-poly>
+                            <point x="0.00310559" y="0.142857" />
+                            <point x="0.996894" y="0.142857" />
+                            <point x="0.996894" y="0.857143" />
+                            <point x="0.00310559" y="0.857143" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
