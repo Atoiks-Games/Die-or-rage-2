@@ -923,5 +923,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="7813030093596727">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5634419228816528" type="sprRyan">
+                    <param id="0" name="Object">sprFakeLava</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="3251777448928146" type="txtSW">
+                    <param id="0" name="Text">&quot;This is not the lava you are looking for&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

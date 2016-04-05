@@ -1118,6 +1118,31 @@
         <object-type name="Text33" sid="2257529044033357">
             <plugin id="Text" />
         </object-type>
+        <object-type name="txtWait" sid="3168802629269814">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sprFakeLava" sid="475521258255143">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="917054162374959" speed="5">
+                    <frame duration="1" hotspotX="0.503401" hotspotY="0.5" original-source="C:\Users\gui\Desktop\&apos;\Programing\GAME\lava.png">
+                        <collision-poly>
+                            <point x="0.0544218" y="0.0519481" />
+                            <point x="0.496599" y="0.0324675" />
+                            <point x="0.92517" y="0.0714286" />
+                            <point x="0.952381" y="0.5" />
+                            <point x="0.945578" y="0.948052" />
+                            <point x="0.496599" y="0.954545" />
+                            <point x="0.0816327" y="0.922078" />
+                            <point x="0.047619" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtSW" sid="8023000915539102">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
