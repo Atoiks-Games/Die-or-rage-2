@@ -39,8 +39,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>27</x>
-                        <y>69</y>
+                        <x>-843</x>
+                        <y>72</y>
                         <z>0</z>
                         <width>859</width>
                         <height>482</height>
@@ -111,8 +111,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2243.831787109</x>
-                        <y>721.142333984</y>
+                        <x>1804</x>
+                        <y>757</y>
                         <z>0</z>
                         <width>288</width>
                         <height>106</height>
@@ -149,8 +149,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>461</x>
-                        <y>117</y>
+                        <x>-52</x>
+                        <y>160</y>
                         <z>0</z>
                         <width>74</width>
                         <height>47.684211731</height>
@@ -178,72 +178,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>369.17388916</x>
-                        <y>56</y>
+                        <x>-124</x>
+                        <y>140</y>
                         <z>0</z>
                         <width>111</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="sprOrangePlatform" uid="25">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>322</x>
-                        <y>-30</y>
-                        <z>0</z>
-                        <width>165</width>
-                        <height>7</height>
-                        <depth>0</depth>
-                        <hotspotX>0.478260875</hotspotX>
-                        <hotspotY>0.285714298</hotspotY>
-                        <angle>1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="sprSwitchBase" uid="27">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>144</x>
-                        <y>449</y>
-                        <z>0</z>
-                        <width>76</width>
-                        <height>10</height>
-                        <depth>0</depth>
-                        <hotspotX>1.636363626</hotspotX>
-                        <hotspotY>-0.050000001</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -258,8 +200,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>79</x>
-                        <y>452</y>
+                        <x>-67</x>
+                        <y>435</y>
                         <z>0</z>
                         <width>5</width>
                         <height>35</height>
@@ -294,35 +236,6 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="sprOrangePlatform" uid="462">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>426</x>
-                        <y>43.869560242</y>
-                        <z>0</z>
-                        <width>148</width>
-                        <height>7</height>
-                        <depth>0</depth>
-                        <hotspotX>0.478260875</hotspotX>
-                        <hotspotY>0.285714298</hotspotY>
-                        <angle>1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="btnSkip" uid="145">
                     <properties>
                         <type>Button</type>
@@ -337,8 +250,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>349</x>
-                        <y>60</y>
+                        <x>-102</x>
+                        <y>99</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>

@@ -516,9 +516,9 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3175330609698651" speed="5">
                     <frame duration="1" hotspotX="1.56545" hotspotY="2.48344" original-source="C:\Users\gui\Downloads\Anvil.png">
                         <collision-poly>
-                            <point x="0.214659" y="0.986755" />
-                            <point x="0.827225" y="0.986754" />
-                            <point x="0.518324" y="0.245034" />
+                            <point x="0.0890045" y="1" />
+                            <point x="0.979058" y="1" />
+                            <point x="0.518324" y="0.0596034" />
                         </collision-poly>
                     </frame>
                 </animation>
