@@ -931,7 +931,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="3251777448928146" type="txtSW">
-                    <param id="0" name="Text">&quot;This is not the lava you are looking for&quot;</param>
+                    <param id="0" name="Text">&quot;These are not the lavas you are looking for&quot;</param>
                 </action>
             </actions>
         </event-block>
