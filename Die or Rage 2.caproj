@@ -547,6 +547,9 @@
                 <behavior-type name="Jumpthru" sid="7898354983260855">
                     <behavior id="jumpthru" />
                 </behavior-type>
+                <behavior-type name="Solid" sid="6771619459563684">
+                    <behavior id="solid" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8039156659250586" speed="5">
