@@ -314,17 +314,9 @@
                 <condition id="0" name="On clicked" sid="5321179462453842" type="btnRestart" />
             </conditions>
             <actions>
-                <action id="-26" name="Restart layout" sid="6005815345135432" type="System" />
-                <action id="-9" name="Set value" sid="9605664515715133" type="System">
-                    <param id="0" name="Variable">sprRyanAnimation</param>
-                    <param id="1" name="Value">&quot;Idle&quot;</param>
-                </action>
-                <action id="-22" name="Set layout angle" sid="2281962421004175" type="System">
-                    <param id="0" name="Angle">0</param>
-                </action>
-                <action id="-10" name="Add to" sid="4497515100076132" type="System">
-                    <param id="0" name="Variable">Retries</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="825118296861969" type="Function">
+                    <param id="0" name="Name">&quot;restart_level&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
         </event-block>
@@ -452,21 +444,13 @@
         </event-block>
         <event-block sid="1438031658915277">
             <conditions>
-                <condition id="-29" name="On load complete" sid="5066499979815029" type="System" />
+                <condition id="-2" name="On start of layout" sid="5066499979815029" type="System" />
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="2037317350645162" type="System">
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;Idle&quot;</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="1953803194412509">
-            <conditions>
-                <condition id="-3" inverted="1" name="Is on-screen" sid="5759094066276553" type="sprVoidswalkerBlast" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="8391607693208455" type="sprVoidswalkerBlast" />
             </actions>
         </event-block>
         <event-block sid="6249539226630586">
@@ -534,17 +518,9 @@
                         <condition id="-4" name="Is outside layout" sid="1884720934815645" type="sprRyan" />
                     </conditions>
                     <actions>
-                        <action id="-26" name="Restart layout" sid="7263949974592954" type="System" />
-                        <action id="-9" name="Set value" sid="16990190987344" type="System">
-                            <param id="0" name="Variable">sprRyanAnimation</param>
-                            <param id="1" name="Value">&quot;Idle&quot;</param>
-                        </action>
-                        <action id="-22" name="Set layout angle" sid="5666947754484653" type="System">
-                            <param id="0" name="Angle">0</param>
-                        </action>
-                        <action id="-10" name="Add to" sid="8293574298789817" type="System">
-                            <param id="0" name="Variable">Retries</param>
-                            <param id="1" name="Value">1</param>
+                        <action id="0" name="Call function" sid="328352209325296" type="Function">
+                            <param id="0" name="Name">&quot;restart_level&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
                     </actions>
                 </event-block>
@@ -557,17 +533,9 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-26" name="Restart layout" sid="7318448339577913" type="System" />
-                <action id="-9" name="Set value" sid="3270977984710358" type="System">
-                    <param id="0" name="Variable">sprRyanAnimation</param>
-                    <param id="1" name="Value">&quot;Idle&quot;</param>
-                </action>
-                <action id="-22" name="Set layout angle" sid="2728558351267054" type="System">
-                    <param id="0" name="Angle">0</param>
-                </action>
-                <action id="-10" name="Add to" sid="2087569579804509" type="System">
-                    <param id="0" name="Variable">Retries</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="281687552768429" type="Function">
+                    <param id="0" name="Name">&quot;restart_level&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
         </event-block>
@@ -578,17 +546,9 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-26" name="Restart layout" sid="3288472049715256" type="System" />
-                <action id="-9" name="Set value" sid="2471603769115341" type="System">
-                    <param id="0" name="Variable">sprRyanAnimation</param>
-                    <param id="1" name="Value">&quot;Idle&quot;</param>
-                </action>
-                <action id="-22" name="Set layout angle" sid="3564658145247156" type="System">
-                    <param id="0" name="Angle">0</param>
-                </action>
-                <action id="-10" name="Add to" sid="7582479215080142" type="System">
-                    <param id="0" name="Variable">Retries</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="182873751806333" type="Function">
+                    <param id="0" name="Name">&quot;restart_level&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
         </event-block>
@@ -625,14 +585,6 @@
                     <param id="1" name="Layer">0</param>
                     <param id="2" name="Image point">10</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="7525072567183765">
-            <conditions>
-                <condition id="-3" inverted="1" name="Is on-screen" sid="7717985554225347" type="sprBullet" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="5511320202081546" type="sprBullet" />
             </actions>
         </event-block>
         <event-block sid="1963173081789561">
@@ -762,14 +714,6 @@
                 <action id="-9" name="Destroy" sid="3394570737571456" type="sprBullet" />
             </actions>
         </event-block>
-        <event-block sid="660040149158945">
-            <conditions>
-                <condition id="-3" inverted="1" name="Is on-screen" sid="4481286658296144" type="sprHealthDart" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="1004367214109418" type="sprHealthDart" />
-            </actions>
-        </event-block>
         <event-block sid="1612734899990143">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="323331158480081" type="sprBomb">
@@ -878,14 +822,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="8874203910040446">
-            <conditions>
-                <condition id="-3" inverted="1" name="Is on-screen" sid="8138928865585304" type="sprBomb" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="8112142784222203" type="sprBomb" />
-            </actions>
-        </event-block>
         <event-block sid="3099438395246785">
             <conditions>
                 <condition id="-1" name="Every tick" sid="7672195060899272" type="System" />
@@ -955,6 +891,27 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="398082377439111" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="863594648310486">
+            <conditions>
+                <condition id="0" name="On function" sid="774547625652070" type="Function">
+                    <param id="0" name="Name">&quot;restart_level&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="696605297225534" type="System" />
+                <action id="-9" name="Set value" sid="407198335062068" type="System">
+                    <param id="0" name="Variable">sprRyanAnimation</param>
+                    <param id="1" name="Value">&quot;Idle&quot;</param>
+                </action>
+                <action id="-22" name="Set layout angle" sid="611430156374482" type="System">
+                    <param id="0" name="Angle">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="184404631849746" type="System">
+                    <param id="0" name="Variable">Retries</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
     </events>
