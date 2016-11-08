@@ -19,7 +19,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="1480303789388678" type="txtWelcomeText">
-                    <param id="0" name="Text">&quot;Die or Rage!&quot; &amp; newline &amp; &quot;HELL&quot; &amp; newline &amp; &quot;MODE&quot;</param>
+                    <param id="0" name="Text">&quot;Die or Rage!&quot; &amp; newline &amp; &quot;V 2.0&quot;</param>
                 </action>
             </actions>
         </event-block>
