@@ -478,7 +478,7 @@
             </conditions>
             <actions>
                 <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="1413168053679714" type="sprMovingPlatform">
-                    <param id="0" name="Acceleration">1600</param>
+                    <param id="0" name="Acceleration">1700</param>
                     <param id="1" name="X">600</param>
                     <param id="2" name="Y">380</param>
                 </action>
@@ -496,7 +496,7 @@
                     <param id="0" name="Position">1</param>
                 </action>
                 <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="1531976088288838" type="sprMovingPlatform">
-                    <param id="0" name="Acceleration">1600</param>
+                    <param id="0" name="Acceleration">1700</param>
                     <param id="1" name="X">600</param>
                     <param id="2" name="Y">100</param>
                 </action>
@@ -512,7 +512,7 @@
             <actions>
                 <action behavior="CustomMovement" id="0" name="Stop" sid="1566620904475506" type="sprMovingPlatform" />
                 <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="9144384078587384" type="sprMovingPlatform">
-                    <param id="0" name="Acceleration">1600</param>
+                    <param id="0" name="Acceleration">1700</param>
                     <param id="1" name="X">600</param>
                     <param id="2" name="Y">380</param>
                 </action>
@@ -945,6 +945,16 @@
                 <action id="0" name="Set text" sid="9683295407422221" type="txtWaitforit">
                     <param id="0" name="Text">&quot;Wait for it...&quot;</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="805171759825014">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="250246362045312" type="sprMovingPlatform">
+                    <param id="0" name="Object">btnRestart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="398082377439111" type="System" />
             </actions>
         </event-block>
     </events>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Level 8</name>
+    <name>Level 8 FORMER SLIME</name>
     <sid>6544862832850638</sid>
     <event-sheet>evtMain</event-sheet>
     <size>
@@ -123,8 +123,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>732</x>
-                        <y>43</y>
+                        <x>459</x>
+                        <y>115</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>
@@ -179,15 +179,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>55</x>
-                        <y>267</y>
+                        <x>51</x>
+                        <y>280</y>
                         <z>0</z>
                         <width>187</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
-                        <angle>1.561449766</angle>
+                        <angle>-1.553343296</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -237,15 +237,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>151</x>
-                        <y>260</y>
+                        <x>151.040252686</x>
+                        <y>264.304138184</y>
                         <z>0</z>
-                        <width>187</width>
+                        <width>196</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
-                        <angle>1.561449766</angle>
+                        <angle>1.588249564</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -295,10 +295,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>242.770812988</x>
-                        <y>230.479309082</y>
+                        <x>242.662307739</x>
+                        <y>236.695755005</y>
                         <z>0</z>
-                        <width>234</width>
+                        <width>247</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
@@ -440,8 +440,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>402</x>
-                        <y>292</y>
+                        <x>396</x>
+                        <y>289</y>
                         <z>0</z>
                         <width>224</width>
                         <height>7</height>
@@ -466,8 +466,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>437</x>
-                        <y>357</y>
+                        <x>732</x>
+                        <y>69</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>
@@ -507,8 +507,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>24</x>
-                        <y>341</y>
+                        <x>25</x>
+                        <y>306</y>
                         <z>0</z>
                         <width>31.101387024</width>
                         <height>68.478919983</height>
@@ -543,6 +543,64 @@
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprOrangePlatform" uid="609">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>248.966552734</x>
+                        <y>367</y>
+                        <z>0</z>
+                        <width>522</width>
+                        <height>7</height>
+                        <depth>0</depth>
+                        <hotspotX>0.478260875</hotspotX>
+                        <hotspotY>0.285714298</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprInvPlatOrange" uid="611">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>109</x>
+                        <y>252</y>
+                        <z>0</z>
+                        <width>27</width>
+                        <height>7</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.571428597</hotspotY>
+                        <angle>2.984513044</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

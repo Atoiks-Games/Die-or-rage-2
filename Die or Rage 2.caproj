@@ -8,7 +8,7 @@
     <author-website>http://atoiks-games.github.io/</author-website>
     <app-id>com.atoiksGames.dieOrRage2</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
-    <saved-with-version>22100</saved-with-version>
+    <saved-with-version>23900</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
@@ -1149,6 +1149,9 @@
         <object-type name="txtWaitforit" sid="7667254531706771">
             <plugin id="Text" />
         </object-type>
+        <object-type name="txtThisOne" sid="302266471050550">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1160,13 +1163,13 @@
         <layout>Level 5.xml</layout>
         <layout>Level 6.xml</layout>
         <layout>Level 7.xml</layout>
-        <layout>Level 8.xml</layout>
+        <layout>Level 8 FORMER SLIME.xml</layout>
         <layout>Level 9.xml</layout>
         <layout>Level 10.xml</layout>
         <layout>Level 11.xml</layout>
-        <layout>Level 12.xml</layout>
+        <layout>Level 12 FORMER SLIME.xml</layout>
         <layout>Level 13.xml</layout>
-        <layout>Level 14.xml</layout>
+        <layout>Level 14  SLIME.xml</layout>
         <layout>Level 15.xml</layout>
         <layout>Level 16.xml</layout>
         <layout>Level 17.xml</layout>

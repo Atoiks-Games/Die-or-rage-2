@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Level 12</name>
-    <sid>3034577922868491</sid>
+    <name>Level 14  SLIME</name>
+    <sid>1879575127557186</sid>
     <event-sheet>evtMain</event-sheet>
     <size>
         <width>1708</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="4120449875113693">
+        <layer name="Layer 0" sid="7259577518846927">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="sprBackground" uid="123">
+                <instance type="sprBackground" uid="142">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -40,10 +40,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>29</x>
-                        <y>72</y>
+                        <y>69</y>
                         <z>0</z>
-                        <width>857</width>
-                        <height>495</height>
+                        <width>859</width>
+                        <height>482</height>
                         <depth>0</depth>
                         <hotspotX>0.032991201</hotspotX>
                         <hotspotY>0.145833328</hotspotY>
@@ -51,7 +51,29 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="btnRestart" uid="117">
+                <instance type="sprLava" uid="144">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>687</x>
+                        <y>475</y>
+                        <z>0</z>
+                        <width>151.373275757</width>
+                        <height>166.727554321</height>
+                        <depth>0</depth>
+                        <hotspotX>2.285714388</hotspotX>
+                        <hotspotY>0.129870132</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="btnRestart" uid="147">
                     <properties>
                         <type>Button</type>
                         <text>Restart</text>
@@ -65,8 +87,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>732</x>
-                        <y>43</y>
+                        <x>748</x>
+                        <y>37</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>
@@ -75,29 +97,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="sprLava" uid="124">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1049</x>
-                        <y>379</y>
-                        <z>0</z>
-                        <width>151.373275757</width>
-                        <height>166.727554321</height>
-                        <depth>0</depth>
-                        <hotspotX>2.285714388</hotspotX>
-                        <hotspotY>0.129870132</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="sprTeleportBlock" uid="116">
+                <instance type="sprGunFloating" uid="119">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -105,28 +105,30 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid">
+                        <behavior-instance type="Pin" />
+                        <behavior-instance type="Rotate">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <speed>180</speed>
+                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>433.475860596</x>
-                        <y>438</y>
+                        <x>179</x>
+                        <y>51</y>
                         <z>0</z>
-                        <width>573</width>
-                        <height>146</height>
+                        <width>59.169021606</width>
+                        <height>24.421562195</height>
                         <depth>0</depth>
-                        <hotspotX>0.503448248</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
+                        <hotspotX>0.047091413</hotspotX>
+                        <hotspotY>0.362416118</hotspotY>
+                        <angle>0.055469211</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="btnSkip" uid="171">
+                <instance type="btnSkip" uid="175">
                     <properties>
                         <type>Button</type>
                         <text>Skip</text>
@@ -140,8 +142,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>423</x>
-                        <y>438</y>
+                        <x>478</x>
+                        <y>421</y>
                         <z>0</z>
                         <width>72</width>
                         <height>24</height>
@@ -150,7 +152,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="sprRyan" uid="68">
+                <instance type="sprRyan" uid="113">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Idle</initial-animation>
@@ -181,8 +183,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>85</x>
-                        <y>285</y>
+                        <x>163</x>
+                        <y>31</y>
                         <z>0</z>
                         <width>31.101387024</width>
                         <height>68.478919983</height>
@@ -193,7 +195,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="txtRetryCounter" uid="268">
+                <instance type="txtRetryCounter" uid="384">
                     <properties>
                         <text>Tries:</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -208,8 +210,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>731</x>
-                        <y>77</y>
+                        <x>743</x>
+                        <y>82</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
