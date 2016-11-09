@@ -1227,7 +1227,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
-        <global-instance type="Function" uid="612" />
+        <global-instance type="Function" uid="613" />
     </global-instances>
     <sounds-folder>
         <file name="inGameSound.ogg" />
