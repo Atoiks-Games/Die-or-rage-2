@@ -1165,6 +1165,9 @@
         <object-type name="Function" sid="617325227225757">
             <plugin id="Function" />
         </object-type>
+        <object-type name="Text34" sid="119898462905685">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1200,6 +1203,7 @@
         <layout>Level 29.xml</layout>
         <layout>Level 30.xml</layout>
         <layout>Ending.xml</layout>
+        <layout>END.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>evtMain.xml</event-sheet>

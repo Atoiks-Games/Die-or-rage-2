@@ -39,7 +39,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="7854134375273437" type="System">
-                            <param id="0" name="Layout">StartPage</param>
+                            <param id="0" name="Layout">END</param>
                         </action>
                         <action id="-9" name="Set value" sid="2022500994809611" type="System">
                             <param id="0" name="Variable">sprRyanAnimation</param>
