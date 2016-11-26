@@ -462,7 +462,7 @@
             </conditions>
             <actions>
                 <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="1413168053679714" type="sprMovingPlatform">
-                    <param id="0" name="Acceleration">1700</param>
+                    <param id="0" name="Acceleration">1600</param>
                     <param id="1" name="X">600</param>
                     <param id="2" name="Y">380</param>
                 </action>
@@ -480,7 +480,7 @@
                     <param id="0" name="Position">1</param>
                 </action>
                 <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="1531976088288838" type="sprMovingPlatform">
-                    <param id="0" name="Acceleration">1700</param>
+                    <param id="0" name="Acceleration">1600</param>
                     <param id="1" name="X">600</param>
                     <param id="2" name="Y">100</param>
                 </action>
@@ -496,7 +496,7 @@
             <actions>
                 <action behavior="CustomMovement" id="0" name="Stop" sid="1566620904475506" type="sprMovingPlatform" />
                 <action behavior="CustomMovement" id="5" name="Accelerate toward position" sid="9144384078587384" type="sprMovingPlatform">
-                    <param id="0" name="Acceleration">1700</param>
+                    <param id="0" name="Acceleration">1600</param>
                     <param id="1" name="X">600</param>
                     <param id="2" name="Y">380</param>
                 </action>
