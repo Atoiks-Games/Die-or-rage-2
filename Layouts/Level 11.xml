@@ -151,6 +151,7 @@
                         <depth>0</depth>
                         <hotspotX>2.285714388</hotspotX>
                         <hotspotY>0.129870132</hotspotY>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -246,6 +247,7 @@
                         <depth>0</depth>
                         <hotspotX>0.387596905</hotspotX>
                         <hotspotY>0.126712322</hotspotY>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -272,6 +274,7 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
