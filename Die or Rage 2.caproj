@@ -385,7 +385,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9900588685032688" speed="5">
-                    <frame duration="1" hotspotX="7.75676" hotspotY="5.17123" original-source="C:\Users\gui\Downloads\Dirt.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.472603" original-source="C:\Users\gui\Downloads\Dirt.png">
                         <collision-poly>
                             <point x="0.0198676" y="0" />
                             <point x="1" y="0" />
