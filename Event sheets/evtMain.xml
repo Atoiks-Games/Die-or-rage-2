@@ -414,14 +414,14 @@
                     <param id="0" name="Tag">SIG_TELEPORT_RYAN</param>
                 </action>
                 <action id="-1" name="Set X" sid="2893642730346715" type="sprRyan">
-                    <param id="0" name="X">random(563)</param>
+                    <param id="0" name="X">300</param>
                 </action>
                 <action id="-2" name="Set Y" sid="4657241228601519" type="sprRyan">
-                    <param id="0" name="Y">random(400)</param>
+                    <param id="0" name="Y">70</param>
                 </action>
             </actions>
             <sub-events>
-                <event-block any="1" sid="7289037850856443">
+                <event-block any="1" disabled="1" sid="7289037850856443">
                     <conditions>
                         <condition id="-4" name="Is outside layout" sid="4847426429815686" type="sprRyan" />
                         <condition id="1" name="Is overlapping another object" sid="3063907485355407" type="sprRyan">

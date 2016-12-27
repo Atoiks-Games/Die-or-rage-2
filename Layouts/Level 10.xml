@@ -434,7 +434,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>750</x>
+                        <x>746</x>
                         <y>411</y>
                         <z>0</z>
                         <width>31.101387024</width>
@@ -490,15 +490,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>188.831222534</x>
-                        <y>156.462463379</y>
+                        <x>196.850036621</x>
+                        <y>-7.27947998</y>
                         <z>0</z>
-                        <width>615</width>
+                        <width>928</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
-                        <angle>1.553343058</angle>
+                        <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -577,15 +577,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>392</x>
-                        <y>86</y>
+                        <x>387.993591309</x>
+                        <y>-143.53024292</y>
                         <z>0</z>
-                        <width>300</width>
+                        <width>740</width>
                         <height>7</height>
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
-                        <angle>1.575589538</angle>
+                        <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
