@@ -23,9 +23,6 @@
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;RunningR&quot;</param>
                 </action>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="7693609986682464" type="sprHealBot">
-                    <param id="0" name="Control">1</param>
-                </action>
             </actions>
         </event-block>
         <event-block any="1" sid="4535825805768926">
@@ -39,9 +36,6 @@
             </conditions>
             <actions>
                 <action behavior="Platform" id="7" name="Simulate control" sid="1929768485879572" type="sprRyan">
-                    <param id="0" name="Control">2</param>
-                </action>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="8703167876318804" type="sprHealBot">
                     <param id="0" name="Control">2</param>
                 </action>
             </actions>
@@ -62,9 +56,6 @@
                 <action id="-9" name="Set value" sid="2058586056055937" type="System">
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;RunningL&quot;</param>
-                </action>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="8439871542299737" type="sprHealBot">
-                    <param id="0" name="Control">0</param>
                 </action>
             </actions>
         </event-block>
@@ -183,9 +174,6 @@
                 <action id="-9" name="Set value" sid="8100909978213325" type="System">
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;Crouch&quot;</param>
-                </action>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="5416142979588905" type="sprHealBot">
-                    <param id="0" name="Control">3</param>
                 </action>
             </actions>
         </event-block>
@@ -563,53 +551,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="1963173081789561">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="7957272821060155" type="sprHealBot">
-                    <param id="0" name="Object">sprDestroyerWall</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Call function" sid="980207395687113" type="Function">
-                    <param id="0" name="Name">&quot;restart_level&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3843316939895357">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="2066238984421592" type="sprHealBot">
-                    <param id="0" name="Object">sprSwitch</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="6600410192933334">
-                    <conditions>
-                        <condition id="2" name="Is playing" sid="3816495196153891" type="sprSwitch">
-                            <param id="0" name="Animation">&quot;On&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="6609969096440226" type="sprSwitch">
-                            <param id="0" name="Animation">&quot;Off&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4437406708731815">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="2709684469253577" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="6674379513064836" type="sprSwitch">
-                            <param id="0" name="Animation">&quot;On&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
         <event-block sid="479229638307673">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="5746712241013211" type="sprHealthDart">
@@ -661,83 +602,6 @@
                     <param id="0" name="Object">sprOrangePlatform</param>
                 </action>
             </actions>
-        </event-block>
-        <event-block sid="9678751165756456">
-            <conditions />
-            <actions>
-                <action id="-9" name="Destroy" sid="3394570737571456" type="sprBullet" />
-            </actions>
-        </event-block>
-        <event-block sid="1612734899990143">
-            <conditions />
-            <actions>
-                <action id="-5" name="Set width" sid="7127735860349699" type="sprSheild">
-                    <param id="0" name="Width">sprSheild.Width-20</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="2572050905799542">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="4461355833167827" type="sprBullet">
-                    <param id="0" name="Object">sprSheild</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="4596452356319978" type="sprBullet" />
-                <action id="-5" name="Set width" sid="2848629841405331" type="sprSheild">
-                    <param id="0" name="Width">sprSheild.Width-20</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="7877255028719846">
-            <conditions>
-                <condition id="-5" name="Compare width" sid="6437222470069876" type="sprSheild">
-                    <param id="0" name="Comparison">0</param>
-                    <param id="1" name="Width">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="4896992911988358" type="sprSheild" />
-            </actions>
-        </event-block>
-        <event-block sid="3444467294097051">
-            <conditions />
-            <actions>
-                <action id="-9" name="Destroy" sid="9428681995334996" type="sprBullet" />
-                <action behavior="Rotate" id="0" name="Set speed" sid="3657813154197019" type="sprGunFloating">
-                    <param id="0" name="Speed">sprGunFloating.Rotate.Speed+20</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3792793415407127">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="5064278483249388" type="System">
-                    <param id="0" name="Interval (seconds)">random(5)</param>
-                </condition>
-            </conditions>
-            <actions />
-        </event-block>
-        <event-block sid="4590339215455447">
-            <conditions />
-            <actions>
-                <action id="-9" name="Destroy" sid="3262162983825578" type="sprBullet" />
-            </actions>
-        </event-block>
-        <event-block sid="8470242974231741">
-            <conditions />
-            <actions>
-                <action id="-26" name="Restart layout" sid="8015177359891953" type="System" />
-                <action id="-10" name="Add to" sid="7231101436418737" type="System">
-                    <param id="0" name="Variable">Retries</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3099438395246785">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="7672195060899272" type="System" />
-            </conditions>
-            <actions />
         </event-block>
         <event-block sid="1193890107851882">
             <conditions>

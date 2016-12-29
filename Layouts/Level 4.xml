@@ -423,7 +423,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text32" uid="534">
+                <instance type="txtThisWay" uid="534">
                     <properties>
                         <text>This way</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -833,7 +833,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text33" uid="548">
+                <instance type="txtListen" uid="548">
                     <properties>
                         <text>You should stop listening to me</text>
                         <initial-visibility>Visible</initial-visibility>

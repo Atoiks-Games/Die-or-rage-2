@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Text31" uid="454">
+                <instance type="txtThanks" uid="454">
                     <properties>
                         <text>Thanks For Playing! Contributors: Alex Bimm, Paul Teng, Will Huckins, Guilherme Sperotto, Loay Al Rashdi, Jeffery Liao, All The Playtesters, and Ryan Richardson.</text>
                         <initial-visibility>Visible</initial-visibility>
