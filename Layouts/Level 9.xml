@@ -351,35 +351,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sprRyansHouse" uid="140">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>258</x>
-                        <y>478</y>
-                        <z>0</z>
-                        <width>218</width>
-                        <height>298</height>
-                        <depth>0</depth>
-                        <hotspotX>1.212707162</hotspotX>
-                        <hotspotY>0.979508221</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="sprGreenPlatform" uid="467">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -464,8 +435,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>162</x>
-                        <y>208</y>
+                        <x>118</x>
+                        <y>233</y>
                         <z>0</z>
                         <width>31.101387024</width>
                         <height>68.478919983</height>
@@ -2867,6 +2838,35 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.571428597</hotspotY>
                         <angle>0.968596399</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprSimplePlatform" uid="36">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>76</x>
+                        <y>363</y>
+                        <z>0</z>
+                        <width>151</width>
+                        <height>153</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.472602725</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

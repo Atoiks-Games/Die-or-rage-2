@@ -111,14 +111,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2375</x>
-                        <y>722</y>
+                        <x>274</x>
+                        <y>227</y>
                         <z>0</z>
                         <width>288</width>
                         <height>106</height>
                         <depth>0</depth>
-                        <hotspotX>7.756756783</hotspotX>
-                        <hotspotY>5.1712327</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.472602725</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -186,28 +186,6 @@
                         <depth>0</depth>
                         <hotspotX>0.478260875</hotspotX>
                         <hotspotY>0.285714298</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="sprSwitch" uid="36">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>329</x>
-                        <y>170</y>
-                        <z>0</z>
-                        <width>5</width>
-                        <height>35</height>
-                        <depth>0</depth>
-                        <hotspotX>4.673913002</hotspotX>
-                        <hotspotY>0.890476167</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -503,6 +481,28 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.571428597</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sprSwitch" uid="13">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>346.504333496</x>
+                        <y>173.064605713</y>
+                        <z>0</z>
+                        <width>10</width>
+                        <height>45</height>
+                        <depth>0</depth>
+                        <hotspotX>4.673913002</hotspotX>
+                        <hotspotY>0.890476167</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
