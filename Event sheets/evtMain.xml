@@ -23,13 +23,7 @@
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;RunningR&quot;</param>
                 </action>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="4045205089153568" type="sprBlap">
-                    <param id="0" name="Control">1</param>
-                </action>
                 <action behavior="8Direction" id="7" name="Simulate control" sid="7693609986682464" type="sprHealBot">
-                    <param id="0" name="Control">1</param>
-                </action>
-                <action behavior="Car" id="7" name="Simulate control" sid="2163659861845515" type="sprBloop">
                     <param id="0" name="Control">1</param>
                 </action>
             </actions>
@@ -47,13 +41,7 @@
                 <action behavior="Platform" id="7" name="Simulate control" sid="1929768485879572" type="sprRyan">
                     <param id="0" name="Control">2</param>
                 </action>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="9962554015541284" type="sprBlap">
-                    <param id="0" name="Control">2</param>
-                </action>
                 <action behavior="8Direction" id="7" name="Simulate control" sid="8703167876318804" type="sprHealBot">
-                    <param id="0" name="Control">2</param>
-                </action>
-                <action behavior="Car" id="7" name="Simulate control" sid="500723017680917" type="sprBloop">
                     <param id="0" name="Control">2</param>
                 </action>
             </actions>
@@ -75,13 +63,7 @@
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;RunningL&quot;</param>
                 </action>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="2405493183988426" type="sprBlap">
-                    <param id="0" name="Control">0</param>
-                </action>
                 <action behavior="8Direction" id="7" name="Simulate control" sid="8439871542299737" type="sprHealBot">
-                    <param id="0" name="Control">0</param>
-                </action>
-                <action behavior="Car" id="7" name="Simulate control" sid="7794727397880165" type="sprBloop">
                     <param id="0" name="Control">0</param>
                 </action>
             </actions>
@@ -202,13 +184,7 @@
                     <param id="0" name="Variable">sprRyanAnimation</param>
                     <param id="1" name="Value">&quot;Crouch&quot;</param>
                 </action>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="1698522383753605" type="sprBlap">
-                    <param id="0" name="Control">3</param>
-                </action>
                 <action behavior="8Direction" id="7" name="Simulate control" sid="5416142979588905" type="sprHealBot">
-                    <param id="0" name="Control">3</param>
-                </action>
-                <action behavior="Car" id="7" name="Simulate control" sid="3260710162343254" type="sprBloop">
                     <param id="0" name="Control">3</param>
                 </action>
             </actions>
@@ -634,16 +610,6 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="7826272164692499">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="5545648028501454" type="sprBloop">
-                    <param id="0" name="Object">sprOrangePlatform</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="6208600931690824" type="sprBloop" />
-            </actions>
-        </event-block>
         <event-block sid="479229638307673">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="5746712241013211" type="sprHealthDart">
@@ -665,11 +631,6 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Spawn another object" sid="1319659151086795" type="sprBlap">
-                    <param id="0" name="Object">sprHealthDart</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
                 <action id="-22" name="Set angle toward position" sid="9843405062307784" type="sprHealthDart">
                     <param id="0" name="X">(sprRyan.X)</param>
                     <param id="1" name="Y">(sprRyan.Y)</param>
@@ -702,24 +663,14 @@
             </actions>
         </event-block>
         <event-block sid="9678751165756456">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="6524631399866713" type="sprBullet">
-                    <param id="0" name="Object">sprBlap</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
-                <action id="-9" name="Destroy" sid="7927834738393044" type="sprBlap" />
                 <action id="-9" name="Destroy" sid="3394570737571456" type="sprBullet" />
             </actions>
         </event-block>
         <event-block sid="1612734899990143">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="323331158480081" type="sprBomb">
-                    <param id="0" name="Object">sprSheild</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
-                <action id="-9" name="Destroy" sid="1886033083742286" type="sprBomb" />
                 <action id="-5" name="Set width" sid="7127735860349699" type="sprSheild">
                     <param id="0" name="Width">sprSheild.Width-20</param>
                 </action>
@@ -750,13 +701,8 @@
             </actions>
         </event-block>
         <event-block sid="3444467294097051">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="2109702970511511" type="sprBullet">
-                    <param id="0" name="Object">sprSWARM</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
-                <action id="-9" name="Destroy" sid="6678710999698398" type="sprSWARM" />
                 <action id="-9" name="Destroy" sid="9428681995334996" type="sprBullet" />
                 <action behavior="Rotate" id="0" name="Set speed" sid="3657813154197019" type="sprGunFloating">
                     <param id="0" name="Speed">sprGunFloating.Rotate.Speed+20</param>
@@ -769,37 +715,16 @@
                     <param id="0" name="Interval (seconds)">random(5)</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="381518055290273" type="sprSWARM">
-                    <param id="0" name="Object">sprBomb</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action behavior="Bullet" id="3" name="Set angle of motion" sid="8326655589135559" type="sprBomb">
-                    <param id="0" name="Angle">random(180)</param>
-                </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="8501335036378665" type="sprBomb">
-                    <param id="0" name="Speed">320</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="4590339215455447">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="2558375846351658" type="sprBomb">
-                    <param id="0" name="Object">sprBullet</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-9" name="Destroy" sid="3262162983825578" type="sprBullet" />
-                <action id="-9" name="Destroy" sid="3591225870242387" type="sprBomb" />
             </actions>
         </event-block>
         <event-block sid="8470242974231741">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="1979624901798732" type="sprBomb">
-                    <param id="0" name="Object">sprRyan</param>
-                </condition>
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-26" name="Restart layout" sid="8015177359891953" type="System" />
                 <action id="-10" name="Add to" sid="7231101436418737" type="System">
@@ -808,44 +733,11 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="8579641446026429">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="7208945351176812" type="sprBomb">
-                    <param id="0" name="Object">sprOrangePlatform</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Bullet" id="4" name="Bounce off object" sid="4564246650824446" type="sprBomb">
-                    <param id="0" name="Object">sprOrangePlatform</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="3099438395246785">
             <conditions>
                 <condition id="-1" name="Every tick" sid="7672195060899272" type="System" />
-                <condition id="-1" name="Compare X" sid="3546612028694714" type="sprSWARM">
-                    <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">780</param>
-                </condition>
             </conditions>
-            <actions>
-                <action id="-1" name="Set X" sid="5479715606902113" type="sprSWARM">
-                    <param id="0" name="X">sprSWARM.X+1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="6053506786786568">
-            <conditions>
-                <condition id="-1" name="Compare X" sid="6788700177471597" type="sprSWARM">
-                    <param id="0" name="Comparison">5</param>
-                    <param id="1" name="X co-ordinate">780</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-1" name="Set X" sid="4923075045490663" type="sprSWARM">
-                    <param id="0" name="X">0</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="1193890107851882">
             <conditions>
