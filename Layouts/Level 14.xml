@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Level 14  SLIME</name>
+    <name>Level 14</name>
     <sid>1879575127557186</sid>
     <event-sheet>evtMain</event-sheet>
     <size>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>29</x>
-                        <y>69</y>
+                        <x>57.240467072</x>
+                        <y>139.000030518</y>
                         <z>0</z>
-                        <width>859</width>
-                        <height>482</height>
+                        <width>1715</width>
+                        <height>962</height>
                         <depth>0</depth>
                         <hotspotX>0.032991201</hotspotX>
                         <hotspotY>0.145833328</hotspotY>
@@ -61,8 +61,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>687</x>
-                        <y>475</y>
+                        <x>2053</x>
+                        <y>827</y>
                         <z>0</z>
                         <width>151.373275757</width>
                         <height>166.727554321</height>

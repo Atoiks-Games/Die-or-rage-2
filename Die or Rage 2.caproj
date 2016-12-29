@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Die or Rage 2</name>
     <description>A little bit harder</description>
@@ -16,17 +16,13 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="video" version="1">Video</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
-        <behavior author="Scirra" id="Car" version="1">Car</behavior>
-        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
-        <behavior author="Scirra" id="Turret" version="1">Turret</behavior>
         <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
@@ -439,9 +435,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="txtInstructions1" sid="1078987437207329">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="sprOrangePlatform" sid="1573846639824846">
             <plugin id="Sprite" />
             <behaviors>
@@ -461,9 +454,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="txtInstructions2" sid="1354441244099174">
-            <plugin id="Text" />
         </object-type>
         <object-type name="txtWelcomeText" sid="2610324872628948">
             <plugin id="Text" />
@@ -490,12 +480,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="btnReplayIntro" sid="6793833176544345">
-            <plugin id="Button" />
-        </object-type>
-        <object-type name="Video" sid="6777591273184358">
-            <plugin id="video" />
         </object-type>
         <object-type name="inGameMusic" sid="5503394552594519">
             <plugin id="Audio" />
@@ -734,14 +718,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="sprStansteadBackground" sid="9480262485619111">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9923634517773416" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500599" original-source="C:\Users\plank\Downloads\background.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="sprWhiteDot" sid="4996122050425433">
             <plugin id="Sprite" />
             <behaviors>
@@ -768,102 +744,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2541952126370561" speed="5">
                     <frame duration="1" hotspotX="0.503876" hotspotY="-0.305556" original-source="C:\Users\ajbim\Downloads\Storage\images.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprPortal" sid="3037839886903572">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Rotate" sid="8578012975131664">
-                    <behavior id="Rotate" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2817078165359329" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprHealBot" sid="5746546406169579">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="8Direction" sid="6836075600087894">
-                    <behavior id="EightDir" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="6928367720803455">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4700811090929484" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png">
-                        <collision-poly>
-                            <point x="0.0107527" y="0.210884" />
-                            <point x="0.198925" y="0.207483" />
-                            <point x="0.344086" y="0.00680272" />
-                            <point x="0.66129" y="0.00680272" />
-                            <point x="0.844086" y="0.217687" />
-                            <point x="0.983871" y="0.214286" />
-                            <point x="0.5" y="0.993197" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprDestroyerWall" sid="9663109482463299">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9523263184640513" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprBloop" sid="6801551951144721">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Car" sid="3170619435917267">
-                    <behavior id="Car" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9356946933258358" speed="5">
-                    <frame duration="1" hotspotX="0.31875" hotspotY="0.969072" original-source="C:\Users\ajbim\Downloads\Bloop.png">
-                        <collision-poly>
-                            <point x="0.00625" y="0.309278" />
-                            <point x="0.1875" y="0.298969" />
-                            <point x="0.323438" y="0.0412371" />
-                            <point x="0.675782" y="0.0309278" />
-                            <point x="0.809375" y="0.27835" />
-                            <point x="1" y="0.309278" />
-                            <point x="0.5" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprBlap" sid="4215394916928585">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="8Direction" sid="907236327105839">
-                    <behavior id="EightDir" />
-                </behavior-type>
-                <behavior-type name="Turret" sid="1511575796328721">
-                    <behavior id="Turret" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1189235382244" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\ajbim\Downloads\Healbot.png">
-                        <collision-poly>
-                            <point x="0" y="0.197279" />
-                            <point x="0.225807" y="0.197279" />
-                            <point x="0.303764" y="0.0102041" />
-                            <point x="0.686828" y="0.00850341" />
-                            <point x="0.817204" y="0.197279" />
-                            <point x="1" y="0.207483" />
-                            <point x="0.5" y="0.993197" />
-                        </collision-poly>
-                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -912,22 +792,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="sprBomb" sid="7947602399177265">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Bullet" sid="9891695045415253">
-                    <behavior id="Bullet" />
-                </behavior-type>
-                <behavior-type name="DestroyOutsideLayout" sid="315030785256597">
-                    <behavior id="destroy" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2621242767409124" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="sprSheild" sid="4005188597504472">
             <plugin id="Sprite" />
             <animation-folder>
@@ -938,23 +802,6 @@
                             <point x="0.997738" y="0.0196078" />
                             <point x="0.996606" y="0.985294" />
                             <point x="0.00339367" y="0.980392" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprSWARM" sid="3615032765928977">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7691659076077788" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\abimm\Documents\GitHub\Die-or-Rage_proto\Animations\Blap\Default\000.png">
-                        <collision-poly>
-                            <point x="0.155914" y="0.197279" />
-                            <point x="0.5" y="0" />
-                            <point x="0.844086" y="0.197279" />
-                            <point x="0.833333" y="0.496599" />
-                            <point x="0.5" y="0.993197" />
-                            <point x="0.177419" y="0.496599" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -1080,7 +927,7 @@
         <object-type name="Function" sid="617325227225757">
             <plugin id="Function" />
         </object-type>
-        <object-type name="txtDIED" sid="119898462905685">
+        <object-type name="txtDied" sid="119898462905685">
             <plugin id="Text" />
         </object-type>
     </object-folder>
@@ -1100,23 +947,8 @@
         <layout>Level 11.xml</layout>
         <layout>Level 12.xml</layout>
         <layout>Level 13.xml</layout>
-        <layout>Level 14  SLIME.xml</layout>
+        <layout>Level 14.xml</layout>
         <layout>Level 15.xml</layout>
-        <layout>Level 16.xml</layout>
-        <layout>Level 17.xml</layout>
-        <layout>Level 18.xml</layout>
-        <layout>Level 19.xml</layout>
-        <layout>Level 20.xml</layout>
-        <layout>Level 21.xml</layout>
-        <layout>Level 22.xml</layout>
-        <layout>Level 23.xml</layout>
-        <layout>Level 24.xml</layout>
-        <layout>Level 25.xml</layout>
-        <layout>Level 26.xml</layout>
-        <layout>Level 27.xml</layout>
-        <layout>Level 28.xml</layout>
-        <layout>Level 29.xml</layout>
-        <layout>Level 30.xml</layout>
         <layout>Ending.xml</layout>
         <layout>END.xml</layout>
     </layout-folder>
@@ -1125,10 +957,7 @@
         <event-sheet>evtStartPage.xml</event-sheet>
         <event-sheet>evtIntroHell.xml</event-sheet>
         <event-sheet>evtLevel13.xml</event-sheet>
-        <event-sheet>evtLevel15.xml</event-sheet>
-        <event-sheet>evtLevel16.xml</event-sheet>
-        <event-sheet>evtLevel28.xml</event-sheet>
-        <event-sheet>evtLevel30.xml</event-sheet>
+        <event-sheet>evtLevel12.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="35" />
