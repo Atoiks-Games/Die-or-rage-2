@@ -394,9 +394,6 @@
                         <condition id="1" name="Is overlapping another object" sid="6897280651479913" type="sprRyan">
                             <param id="0" name="Object">sprSwitchBase</param>
                         </condition>
-                        <condition id="1" name="Is overlapping another object" sid="3243619770894606" type="sprBoss1">
-                            <param id="0" name="Object">sprRyan</param>
-                        </condition>
                     </conditions>
                     <actions>
                         <action id="-42" name="Signal" sid="2060291526204539" type="System">

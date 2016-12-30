@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Die or Rage 2</name>
     <description>A little bit harder</description>
@@ -315,13 +315,13 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Crouch" pingpong="0" repeatcount="1" repeatto="0" sid="6079345777502187" speed="5">
-                    <frame duration="1" hotspotX="0.387597" hotspotY="0.126712" original-source="C:\Users\ajbim\Downloads\Base Jeff.png">
+                    <frame duration="1" hotspotX="0.380952" hotspotY="0.292994" original-source="C:\Users\ajbim\Downloads\Base Jeff.png">
                         <collision-poly>
-                            <point x="0.496124" y="0.476027" />
-                            <point x="0.589147" y="0.5" />
-                            <point x="0.984496" y="0.993151" />
-                            <point x="0.0232558" y="0.989726" />
-                            <point x="0.24031" y="0.5" />
+                            <point x="0.492063" y="0.0191076" />
+                            <point x="0.587301" y="0.0636943" />
+                            <point x="0.992063" y="0.980892" />
+                            <point x="0.00793649" y="0.974522" />
+                            <point x="0.230159" y="0.0636943" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -695,29 +695,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="sprBoss1" sid="9046934058338507">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Rotate" sid="9590267016569107">
-                    <behavior id="Rotate" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="2075818236792533">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4867823816804857" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\plank\Downloads\bill.JPG">
-                        <collision-poly>
-                            <point x="0.746711" y="0.73718" />
-                            <point x="0.217105" y="0.74359" />
-                            <point x="0.503289" y="0.13782" />
-                            <point x="0.789474" y="0.650641" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="sprWhiteDot" sid="4996122050425433">
             <plugin id="Sprite" />
             <behaviors>
@@ -736,14 +713,6 @@
                             <point x="0.0979167" y="0.383333" />
                         </collision-poly>
                     </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprHeathBar" sid="4511428711388394">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2541952126370561" speed="5">
-                    <frame duration="1" hotspotX="0.503876" hotspotY="-0.305556" original-source="C:\Users\ajbim\Downloads\Storage\images.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -787,21 +756,6 @@
                             <point x="0.997089" y="0.133929" />
                             <point x="0.997088" y="0.866071" />
                             <point x="0.00329969" y="0.866071" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sprSheild" sid="4005188597504472">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9310568073468279" speed="5">
-                    <frame duration="1" hotspotX="0.479638" hotspotY="1.01961">
-                        <collision-poly>
-                            <point x="0.00339367" y="0.00980392" />
-                            <point x="0.997738" y="0.0196078" />
-                            <point x="0.996606" y="0.985294" />
-                            <point x="0.00339367" y="0.980392" />
                         </collision-poly>
                     </frame>
                 </animation>
