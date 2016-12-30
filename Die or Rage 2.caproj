@@ -537,7 +537,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7128082345344892" speed="5">
-                    <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\plank\Downloads\Voidswalker Base.png" />
+                    <frame duration="1" hotspotX="0.919192" hotspotY="0.632813" original-source="C:\Users\plank\Downloads\Voidswalker Base.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.501845" original-source="C:\Users\plank\Downloads\Voidswalker Charge 1.png" />
                     <frame duration="1" hotspotX="0.504274" hotspotY="0.5" original-source="C:\Users\plank\Downloads\Voidswalker Charge 2.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\plank\Downloads\Voidswalker Charge 3.png" />
@@ -884,10 +884,25 @@
         <object-type name="txtDied" sid="119898462905685">
             <plugin id="Text" />
         </object-type>
+        <object-type name="txtIntro" sid="118181985725779">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtEnding" sid="191786766608769">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sprDevil" sid="723223313867680">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="822264466951910" speed="5">
+                    <frame duration="1" hotspotX="0.501818" hotspotY="0.502732" original-source="C:\Users\gui\Desktop\devil.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>StartPage.xml</layout>
+        <layout>Intro.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>

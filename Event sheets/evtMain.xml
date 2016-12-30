@@ -350,8 +350,8 @@
                 <action id="-3" name="Create object" sid="2023107702677971" type="System">
                     <param id="0" name="Object to create">sprVoidswalkerBlast</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">153</param>
-                    <param id="3" name="Y">318.951</param>
+                    <param id="2" name="X">sprVoidswalker.X</param>
+                    <param id="3" name="Y">sprVoidswalker.Y</param>
                 </action>
             </actions>
         </event-block>
