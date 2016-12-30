@@ -54,7 +54,7 @@
                 <instance type="btnRestart" uid="70">
                     <properties>
                         <type>Button</type>
-                        <text>Restart</text>
+                        <text>ʇɹɐʇsǝɹ</text>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>
@@ -187,7 +187,7 @@
                 <instance type="btnSkip" uid="157">
                     <properties>
                         <type>Button</type>
-                        <text>Skip</text>
+                        <text>dᴉʞs</text>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>
