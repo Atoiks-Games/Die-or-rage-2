@@ -898,6 +898,30 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text" sid="387813110744457">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="530348932686797">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="473550461503052">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text4" sid="557854507992879">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text5" sid="350695916581476">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text6" sid="934718800334376">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text7" sid="404484227641742">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtJustWait" sid="582694936546645">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

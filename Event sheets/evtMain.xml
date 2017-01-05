@@ -548,46 +548,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="479229638307673">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="5746712241013211" type="sprHealthDart">
-                    <param id="0" name="Object">sprRyan</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="3413498477917605" type="sprHealthDart" />
-                <action id="0" name="Call function" sid="6000204666342799" type="Function">
-                    <param id="0" name="Name">&quot;restart_level&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="9908686589198925">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="6819890920450522" type="System">
-                    <param id="0" name="Interval (seconds)">1.5</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-22" name="Set angle toward position" sid="9843405062307784" type="sprHealthDart">
-                    <param id="0" name="X">(sprRyan.X)</param>
-                    <param id="1" name="Y">(sprRyan.Y)</param>
-                </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="8282821351149587" type="sprHealthDart">
-                    <param id="0" name="State">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="2045552542647982">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="4357650385345448" type="sprHealthDart">
-                    <param id="0" name="Object">sprGreenPlatform</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="4817188738238745" type="sprHealthDart" />
-            </actions>
-        </event-block>
         <event-block sid="2664047712699754">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="294630355207745" type="sprBullet">
@@ -665,6 +625,18 @@
                 <action id="-10" name="Add to" sid="184404631849746" type="System">
                     <param id="0" name="Variable">Retries</param>
                     <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="898112633456691">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="629564094214649" type="sprAnvil">
+                    <param id="0" name="Object">sprFakeGreen</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="654477042119983" type="txtJustWait">
+                    <param id="0" name="Text">&quot;Just wait for it&quot;</param>
                 </action>
             </actions>
         </event-block>
