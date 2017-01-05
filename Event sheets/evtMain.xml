@@ -239,6 +239,9 @@
                 <action behavior="Solid" id="0" name="Set enabled" sid="7878161803046183" type="sprInvPlatOrange">
                     <param id="0" name="State">0</param>
                 </action>
+                <action id="0" name="Set text" sid="151975263418014" type="txtWait">
+                    <param id="0" name="Text">&quot;Just wait, believe me. there is no secret platform.  Believing me worked well on the last level right?&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="2155436040430613">

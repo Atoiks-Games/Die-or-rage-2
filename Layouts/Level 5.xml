@@ -267,7 +267,7 @@
                 </instance>
                 <instance type="txtWait" uid="494">
                     <properties>
-                        <text>Just wait, believe there is no secret platform.  Believing me worked well on the last level right?</text>
+                        <text></text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
@@ -451,8 +451,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>430.037536621</x>
-                        <y>195.762008667</y>
+                        <x>427.151519775</x>
+                        <y>167.862258911</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
@@ -551,8 +551,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>436.563568115</x>
-                        <y>133.698501587</y>
+                        <x>433.67755127</x>
+                        <y>130.8125</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>
