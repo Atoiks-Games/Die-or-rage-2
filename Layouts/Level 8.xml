@@ -604,7 +604,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text3" uid="184">
+                <instance type="txtRestartPlat" uid="184">
                     <properties>
                         <text>You are not the only one that can press &quot;Restart&quot;</text>
                         <initial-visibility>Visible</initial-visibility>

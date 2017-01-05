@@ -589,7 +589,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text4" uid="185">
+                <instance type="txtVWChange" uid="185">
                     <properties>
                         <text>Voidswalkers act differently in hell.</text>
                         <initial-visibility>Visible</initial-visibility>

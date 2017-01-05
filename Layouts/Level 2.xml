@@ -336,7 +336,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text2" uid="183">
+                <instance type="txtInvPlatInfo" uid="183">
                     <properties>
                         <text>And there are things that are there, but you dont see.</text>
                         <initial-visibility>Visible</initial-visibility>

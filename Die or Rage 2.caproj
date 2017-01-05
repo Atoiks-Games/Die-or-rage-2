@@ -898,25 +898,25 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text" sid="387813110744457">
+        <object-type name="txtFakePlatInfo" sid="387813110744457">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text2" sid="530348932686797">
+        <object-type name="txtInvPlatInfo" sid="530348932686797">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text3" sid="473550461503052">
+        <object-type name="txtRestartPlat" sid="473550461503052">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text4" sid="557854507992879">
+        <object-type name="txtVWChange" sid="557854507992879">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text5" sid="350695916581476">
+        <object-type name="txtWeird" sid="350695916581476">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text6" sid="934718800334376">
+        <object-type name="txtCars" sid="934718800334376">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text7" sid="404484227641742">
+        <object-type name="txtDevil" sid="404484227641742">
             <plugin id="Text" />
         </object-type>
         <object-type name="txtJustWait" sid="582694936546645">

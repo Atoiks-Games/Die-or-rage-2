@@ -278,7 +278,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text5" uid="186">
+                <instance type="txtWeird" uid="186">
                     <properties>
                         <text>Hell is a weird place sometimes.</text>
                         <initial-visibility>Visible</initial-visibility>

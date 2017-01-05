@@ -532,7 +532,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text7" uid="188">
+                <instance type="txtDevil" uid="188">
                     <properties>
                         <text>Devil -&gt;</text>
                         <initial-visibility>Visible</initial-visibility>
