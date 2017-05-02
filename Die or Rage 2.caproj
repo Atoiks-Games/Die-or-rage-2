@@ -922,6 +922,9 @@
         <object-type name="txtJustWait" sid="582694936546645">
             <plugin id="Text" />
         </object-type>
+        <object-type name="txtTryAgainBoss" sid="985200638681624">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
